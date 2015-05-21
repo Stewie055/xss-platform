@@ -3,8 +3,8 @@ from flask import session, redirect, url_for, escape, request, render_template, 
 import pymongo
 from datetime import datetime
 
-USERNAME = 'rabitxss'
-PASSWORD = 'rabitpass'
+USERNAME = ''
+PASSWORD = ''
 
 
 @app.route('/')
